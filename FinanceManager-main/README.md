@@ -1,8 +1,6 @@
 **API Documentation**
 
 
-https://finance-manager-lac-delta.vercel.app - DEPLOYED LINK OF THE PROJECT
-
 
 This documentation provides an overview of the available API endpoints for user authentication, balance management, expenses, and incomes. The API supports operations for user registration, login, managing balances, and handling expenses and incomes.
 
