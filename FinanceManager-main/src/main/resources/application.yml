@@ -1,0 +1,21 @@
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  datasource:
+    password: INYXDcXplBwsEtXiYgJLFhsDkjFliKLg
+    url: jdbc:postgresql://autorack.proxy.rlwy.net:27160/railway
+    username: postgres
+#    password: must2004$
+#    url: jdbc:postgresql://localhost:5432/registration
+#    username: finance_user
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
